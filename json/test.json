@@ -1,0 +1,14 @@
+{
+   "Table":[
+      "Languages",
+      "Play",
+      "Settings"
+   ],
+   "languages":[
+      {
+         "id":"Ru",
+         "nativeName":"Русский",
+         "Play":"Играть"
+      }
+   ]
+}
