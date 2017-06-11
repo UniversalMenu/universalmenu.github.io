@@ -1,14 +1,15 @@
-{
-   "Table":[
+{  
+   "Table":[  
       "Languages",
       "Play",
       "Settings"
    ],
-   "languages":[
-      {
+   "languages":[  
+      {  
          "id":"Ru",
          "nativeName":"Русский",
-         "Play":"Играть"
+         "Play":"Играть",
+         "Settings":"Настройки"
       }
    ]
 }

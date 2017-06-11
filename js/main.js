@@ -4,8 +4,11 @@ init();
 function init() {
  loadJSON(function(response) {
   // Parse JSON string into object
-    var actual_JSON = JSON.parse(response);
+    var actual_JSON = $.parseJSON(response);
 console.log(actual_JSON);
+$('#Translates').bootstrapTable({
+              data: actual_JSON['languages']
+           });
  });
 }
 
