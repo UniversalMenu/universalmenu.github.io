@@ -23,7 +23,7 @@
    ],
    "languages":[
       {
-         "id":"EN",
+         "unityId":"English",
          "nativeName":"English",
          "play":"Play",
          "settings":"Setings",
@@ -31,7 +31,7 @@
          "sounds":"Sounds"
       },
       {
-         "id":"RU",
+         "unityId":"Russian",
          "nativeName":"Русский",
          "play":"Играть",
          "settings":"Настройки",
