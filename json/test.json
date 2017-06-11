@@ -1,24 +1,42 @@
-{  
-   "Columns":[  
-      {  
+{
+   "Columns":[
+      {
          "field":"nativeName",
          "title":"Language"
       },
-      {  
+      {
          "field":"play",
          "title":"Play"
       },
-      {  
+      {
          "field":"settings",
          "title":"Settings"
+      },
+      {
+         "field":"music",
+         "title":"Music"
+      },
+      {
+         "field":"sounds",
+         "title":"Sounds"
       }
    ],
-   "languages":[  
-      {  
-         "id":"Ru",
+   "languages":[
+      {
+         "id":"EN",
+         "nativeName":"English",
+         "play":"Play",
+         "settings":"Setings",
+         "music":"Music",
+         "sounds":"Sounds"
+      },
+      {
+         "id":"RU",
          "nativeName":"Русский",
          "play":"Играть",
-         "settings":"Настройки"
+         "settings":"Настройки",
+         "music":"Музыка",
+         "sounds":"Звуки"
       }
    ]
 }
