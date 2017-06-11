@@ -4,10 +4,10 @@ init();
 function init() {
  loadJSON(function(response) {
   // Parse JSON string into object
-    //var actual_JSON = $.parseJSON(response);
+    var actual_JSON = $.parseJSON(response);
 console.log(actual_JSON);
 $('#Translates').bootstrapTable({
-url: 'https://universalmenu.github.io/json/test.json',
+url: 'data1.json',
 columns: actual_JSON['Columns'],
               data: actual_JSON['languages']
            });
