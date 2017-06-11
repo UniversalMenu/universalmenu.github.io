@@ -1,15 +1,15 @@
 {  
    "Columns":[  
       {  
-         "field":"NativeName",
+         "field":"nativeName",
          "title":"Language"
       },
       {  
-         "field":"Play",
+         "field":"play",
          "title":"Play"
       },
       {  
-         "field":"Settings",
+         "field":"settings",
          "title":"Settings"
       }
    ],
@@ -17,8 +17,8 @@
       {  
          "id":"Ru",
          "nativeName":"Русский",
-         "Play":"Играть",
-         "Settings":"Настройки"
+         "play":"Играть",
+         "settings":"Настройки"
       }
    ]
 }
