@@ -8,7 +8,7 @@ function init() {
 console.log(actual_JSON);
 $('#Translates').bootstrapTable({
 columns: [{
-        field: 'Language',
+        field: 'NativeName',
         title: 'Language'
     }, {
         field: 'Play',

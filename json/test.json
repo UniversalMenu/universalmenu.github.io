@@ -6,8 +6,8 @@
    ],
    "languages":[  
       {  
-         "id":"Ru",
-         "nativeName":"Русский",
+         "Id":"Ru",
+         "NativeName":"Русский",
          "Play":"Играть",
          "Settings":"Настройки"
       }
