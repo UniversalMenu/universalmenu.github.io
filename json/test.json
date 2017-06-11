@@ -1,13 +1,22 @@
 {  
-   "Table":[  
-      "Languages",
-      "Play",
-      "Settings"
+   "Columns":[  
+      {  
+         "field":"NativeName",
+         "title":"Language"
+      },
+      {  
+         "field":"Play",
+         "title":"Play"
+      },
+      {  
+         "field":"Settings",
+         "title":"Settings"
+      }
    ],
    "languages":[  
       {  
-         "Id":"Ru",
-         "NativeName":"Русский",
+         "id":"Ru",
+         "nativeName":"Русский",
          "Play":"Играть",
          "Settings":"Настройки"
       }

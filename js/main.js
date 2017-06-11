@@ -7,16 +7,7 @@ function init() {
     var actual_JSON = $.parseJSON(response);
 console.log(actual_JSON);
 $('#Translates').bootstrapTable({
-columns: [{
-        field: 'NativeName',
-        title: 'Language'
-    }, {
-        field: 'Play',
-        title: 'Play'
-    }, {
-        field: 'Settings',
-        title: 'Settings'
-    }],
+columns: actual_JSON['Columns'],
               data: actual_JSON['languages']
            });
  });
